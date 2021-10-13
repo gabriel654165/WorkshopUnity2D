@@ -1,6 +1,8 @@
-# This is an <h1> tag
+# WorkShop Unity 2D <h1>
+ In this workshop your going to make the begginin of a city manager game
+ Your game at the end is going to be like a clash of clan or an sims like (whith much more functionalities)
 
-Prerequieres :
+# Prerequieres : <h3>
 	     Installer unity depuis UNITY HUB.
 	     Telecharger la version UNITY 2020 (lts)
 
