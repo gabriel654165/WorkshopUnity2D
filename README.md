@@ -4,15 +4,16 @@
 
 # Prerequieres : <h3>
   Installer unity depuis UNITY HUB.
+
   Telecharger la version UNITY 2020 (lts)
 
-Step 1 : Créer un hero avec sprite + scripts
+# Step 1 : Créer un hero avec sprite + scripts
      vous allez utilisez seulement des objets 2D dans ce projet
      Unity a des objets déjà créer avec des composants (aller voir leur inspector)
      - Créer un empty object
      - Selectionner l'objet, le nomer Hero, ajouter un sprite2d dans l'inspector
 
-Step2 : Tilemap
+# Step2 : Tilemap
       tilemap ISO
       - créer une tilemap, créer un grid ISO
       - Window/2D/TilePalet
@@ -20,17 +21,17 @@ Step2 : Tilemap
       - ajouter une tile a cet object (drag & drop les assets sliced dans la tile palet)
       - fait une map simple
 
-Step3 : IU -> faire un inventaire d'objets a placer sur ta map
+# Step3 : IU -> faire un inventaire d'objets a placer sur ta map
       - nouveau objet canvas IU
       - creer un enfant Image inventory
       - créer des objets dans cet inventaire
 
-Step4: Scripts
+# Step4: Scripts
        - public
        - gameobject a fill via IDE ou fonction
        - start & update
 
-Step5 : Events IU
+# Step5 : Events IU
       - créer un script avec une fonction qui met en surbillance l'objet
       - dans l'inventory des objets créer ajouter un event (on survoling) et assigner la fonction créée
       - créer un objet ISO hors tilemap
@@ -38,15 +39,15 @@ Step5 : Events IU
       - ajouter un event on drag sur l'objet IU & assigner le srcript créé
       - BONUS : son
 
-Step6 : Objet qui suis la souris
+# Step6 : Objet qui suis la souris
       - Instancier un objet et l'afficher une fois avoir cliqué sur l'object
 
-Step7 : SoundDesign
+# Step7 : SoundDesign
       - AudioSource p; p.Play()
 
-Step8 : Camera moves
+# Step8 : Camera moves
       - ajouter un script a la camera et transform.position
 
-Step9: Clic on the object
+# Step9: Clic on the object
        - detecter la position de la souris
        - selectionner l'object colide
