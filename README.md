@@ -1,12 +1,15 @@
 # WorkShop Unity 2D <h1>
 <h4>
  In this workshop your going to make the begginin of a village manager game.
-Your game at the end is going to looks like a clash of clan or a sims like (with much more functionalities)
+
+Your game at the end is going to looks like a clash of clan or a sims like (with much less functionalities)
 
 # Prerequieres : <h3>
-  - Installer unity depuis UNITY HUB.
+  - Installer UNITY HUB.
+  - Ajouter un compte ou créer en un
+  - AJouter une licence a votre unity hub
   - Telecharger la version UNITY 2020 (lts)
-
+#
 # Step 1 : Tilemap
 
  We are going to create a tilemap isometric (ISO).
@@ -14,16 +17,11 @@ Your game at the end is going to looks like a clash of clan or a sims like (with
 Your objects in scene are on the left of your screen. You normaly starts with a MainCamera and thats all.
 
  - Create a tilemap with a ISO grid
-
  - Open your tile palet in : Window/2D/TilePalet, with this your going to create the base of the level
-
  - Create a new palette, and drag the assets Isometric sliced level in
- 
- - lets create a simple map then
+ - Lets create a simple map then
  
 ![alt text](https://github.com/gabriel654165/WorkshopUnity2D/blob/master/images/Screenshot%20from%202021-10-13%2020-51-11.png)
-
-
 
 # Step 2 : IU -> Create an inventory of objects
 
