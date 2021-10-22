@@ -36,7 +36,7 @@ Now you have juste images no clickable or dragable
 # Step 4: Scripts -> class and functions
 
  - New script assigned to your IUManager
- - Assign a GameObject for each of your objects in the inventory
+ - Create a GameObject for each of your objects in the inventory
  - Assign via the IDE your objects to your objects slots
 
 You can create functions for : 
@@ -54,6 +54,7 @@ Create an event for when your mouse is above your inventory items :
  - when your mouse click down your items
  - when your mouse is survoling your item
  - ...
+
 And call the functions you have made for theses events in the event trigger put the object which contains the scripts and choose the right function
 
 # Step 6 : Make your object follow your mouse
@@ -70,11 +71,11 @@ Make sure when your objects is created :
 # Step 7 : be able to remove the yet landed objects
 Found a way to when you click on your objects instantiate and landed on your map, to drag them another time.
 Advices : 
-- You may check the psoitions of you mouse and the positions of your object, if the positions are the same check if the mouse is clicked and use the same script to make move it twice
+- You may check the positions of you mouse and the positions of your object, if the positions are the same check if the mouse is clicked and use the same script to make move it twice
 - You might use the collider of your object (if it has no, create one)
 - You might use a RaycastHit2D
 
-#BONUS
+# BONUS
 
 If you arrived here well played, your going to add some cool features to your game so choose a boonus step and try to implement it (by level of difficulty)
 
