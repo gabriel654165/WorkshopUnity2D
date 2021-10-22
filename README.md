@@ -5,10 +5,10 @@
 Your game at the end is going to looks like a clash of clan or a sims like (with much less functionalities)
 
 # Prerequieres : <h3>
-  - Installer UNITY HUB.
-  - Ajouter un compte ou créer en un
-  - AJouter une licence a votre unity hub
-  - Telecharger la version UNITY 2020 (lts)
+  - Download UNITY HUB
+  - Add an account or create one
+  - Add a licence to your unity hub
+  - Download UNITY 2020 (lts)
 #
 # Step 1 : Tilemap
 
@@ -16,7 +16,7 @@ Your game at the end is going to looks like a clash of clan or a sims like (with
 
 Your objects in scene are on the left of your screen. You normaly starts with a MainCamera and thats all.
 
- - Create a tilemap with a ISO grid
+ - Create a tilemap with an ISO grid
  - Open your tile palet in : Window/2D/TilePalet, with this your going to create the base of the level
  - Create a new palette, and drag the assets Isometric sliced level in
  - Lets create a simple map then
@@ -25,29 +25,29 @@ Your objects in scene are on the left of your screen. You normaly starts with a 
 
 # Step 2 : IU -> Create an inventory of objects
 
-- create an empty object named "IUManager"
-- as child of it create a new objects : a canvas (in IU->canvas)
-- create a child object to your canvas, an image which going to be your inventory
-- create as many images for the objects you want to use
+- Create an empty object named "IUManager"
+- As child of it create a new objects : a canvas (in IU->canvas)
+- Create a child object to your canvas, an image which going to be your inventory
+- Create as many images for the objects you want to use
 
 Now you have juste images no clickable or dragable
 
 # Step 4: Scripts -> class and functions
 
- - new script assigned to your IUManager
- - assign a GameObject for each of your objects in the inventory
- - assign via the IDE your objects to your objects slots
+ - New script assigned to your IUManager
+ - Assign a GameObject for each of your objects in the inventory
+ - Assign via the IDE your objects to your objects slots
 
 You can create functions for : 
- - hightLight the GameObjects 
+ - hight light the GameObjects 
  - play a sound
- - Instanciate a new object from you inventory (you probably write another script for the new objects in order to make it follow your mouse when you drag it, so now juste make it pop on positions x:0 y:0 z:0)
+ - Instantiate a new object from you inventory (you probably write another script for the new objects in order to make it follow your mouse when you drag it, so now juste make it pop on positions x:0 y:0 z:0)
  
 And in the next step your going to call them
 
 # Step 5 : Events IU -> interact with your IU
 
- - for each objects, add a new component : event trigger
+ - For each object, add a new component : event trigger
 
 Create an event for when your mouse is above your inventory items : 
  - when your mouse click down your items
@@ -62,7 +62,7 @@ And call the functions you have made for theses events in the event trigger put 
 Make sure when your objects is created :
  - He display at the screen (object.SetActive(true))
  - His position follow the moves of your mouse (you might convert the mouse position in world position)
- - and when the mouse release the click let the objects to his actual positions
+ - And when the mouse release the click let the objects to his actual positions
 
 # Step 7 : be able to remove the yet landed objects
 Found a way to when you click on your objects instantiate and landed on your map, to drag them another time.
