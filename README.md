@@ -1,37 +1,27 @@
-# WorkShop Unity 2D 
- In this workshop your going to make the begginin of a city manager game
- Your game at the end is going to be like a clash of clan or an sims like (whith much more functionalities)
+# WorkShop Unity 2D <h1>
+ In this workshop your going to make the begginin of a village manager game.
+ Your game at the end is going to looks like a clash of clan or a sims like (with much more functionalities)
 
 # Prerequieres : <h3>
-  Installer unity depuis UNITY HUB.
+  - Installer unity depuis UNITY HUB.
+  - Telecharger la version UNITY 2020 (lts)
 
-  Telecharger la version UNITY 2020 (lts)
+# Step 1 : Tilemap
 
+ We are going to create a tilemap isometric (ISO).
 
-# Step 1 : Créer un hero avec sprite + scripts
+Your objects in scene are on the left of your screen. You normaly starts with a MainCamera and thats all.
 
- vous allez utilisez seulement des objets 2D dans ce projet
+ - Create a tilemap with a ISO grid
 
- Unity a des objets déjà créer avec des composants (aller voir leur inspector)
+ - Open your tile palet in : Window/2D/TilePalet, with this your going to create the base of the level
 
- - Créer un empty object
+ - Create a new palette, and drag the assets Isometric sliced level in
+ 
+ - lets create a simple map then
+ 
+![alt text](http://url/to/img.png)
 
- - Selectionner l'objet, le nomer Hero, ajouter un sprite2d dans l'inspector
-
-
-# Step2 : Tilemap
-
- tilemap ISO
-
- - créer une tilemap, créer un grid ISO
-
- - Window/2D/TilePalet
-
- - créer une nouvelle palette
-
- - ajouter une tile a cet object (drag & drop les assets sliced dans la tile palet)
-
- - fait une map simple
 
 
 # Step3 : IU -> faire un inventaire d'objets a placer sur ta map
