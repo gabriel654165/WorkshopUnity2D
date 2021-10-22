@@ -9,6 +9,7 @@ Your game at the end is going to looks like a clash of clan or a sims like (with
   - Add an account or create one
   - Add a licence to your unity hub
   - Download UNITY 2020 (lts)
+  - Create a new 2d project
 #
 # Step 1 : Tilemap
 
@@ -63,6 +64,8 @@ Make sure when your objects is created :
  - He display at the screen (object.SetActive(true))
  - His position follow the moves of your mouse (you might convert the mouse position in world position)
  - And when the mouse release the click let the objects to his actual positions
+
+![alt text](https://github.com/gabriel654165/WorkshopUnity2D/blob/master/images/Screenshot%20from%202021-10-22%2019-59-48.png)
 
 # Step 7 : be able to remove the yet landed objects
 Found a way to when you click on your objects instantiate and landed on your map, to drag them another time.
